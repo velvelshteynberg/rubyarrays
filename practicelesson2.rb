@@ -40,7 +40,7 @@ end
 # end
 
 #another method to execute the .each loop
-numbers.each {|number| "we are holding by number #{number}"}
+# numbers.each {|number| "we are holding by number #{number}"}
 
 puts numbers
 
@@ -48,4 +48,6 @@ puts numbers
 
 
 
-#questions 1-line 37-40 are not working
+#questions 1-line 37-40 are not working and 42-43 arent working either
+#questions 2- can the .map be explained to me one more time
+
