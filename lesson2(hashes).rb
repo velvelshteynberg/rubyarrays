@@ -65,4 +65,6 @@ numbers = (1..10).to_a
 new_numbers = numbers.map do |number|
     number * 1000
 end 
-puts new_numbers
+puts new_number
+
+#if you use .map! then it saves the original array with the new values
