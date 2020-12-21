@@ -70,3 +70,11 @@ puts new_number
 #if you use .map! then it saves the original array with the new values
 
 #you can run an array through a .each command and you have to use pipes for two arguments e.g |Bear, action|
+
+
+# you can modify a hash by typing .select
+useful_bears = bears.select do |bear, attribute|
+    attribute(:damage) > 50
+end
+
+#select acts as a kind of filter
