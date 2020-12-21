@@ -68,3 +68,5 @@ end
 puts new_number
 
 #if you use .map! then it saves the original array with the new values
+
+#you can run an array through a .each command and you have to use pipes for two arguments e.g |Bear, action|

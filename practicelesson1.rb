@@ -38,7 +38,7 @@ new_array = [1, 2, 3, 4, 5,6, 7, 8,]
 # puts new_array [0..2]
 
 # # modifying array values
-# new_array(-1) = 9 
+# new_array[-1] = 9 
 
 #shift controls
 new_array.shift("0")
@@ -47,7 +47,7 @@ new_array.unshift("0")
 puts new_array
 
 
-#questions: I need three commands explained: converting one array value into another one, shift and unshift
+#questions: I need three commands explained: converting one array value into another one, shift(will remove first item from array) and unshift(add to the beggining of the array)
 
 
 

@@ -35,12 +35,12 @@ numbers = (1..100).to_a
 end
 
 #the .each loop
-# numbers.each |number|
-#     puts "we are holding by number #{number}"
-# end
+numbers.each |number|
+    puts "we are holding by number #{number}"
+end
 
 #another method to execute the .each loop
-# numbers.each {|number| "we are holding by number #{number}"}
+numbers.each {|number| puts "we are holding by number #{number}"}
 
 puts numbers
 
